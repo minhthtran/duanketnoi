@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .row {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        #cardLeft {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-right: 10px;
+            width: 60%;
+            background-color:rgba(255, 201, 71, 1);
+            border-radius: 10px;
+            height: 95%;
+        }
+
+        #cardright {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            width:30%;
+            background-color: rgba(193, 193, 191, 1);
+            border-radius: 10px;
+            height: 95%;
+        }
+        #title{
+            font-family: Arial;
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+        .formtitle{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        #content_title{
+            font-family: Arial;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+
+        }
+        #items_show{
+            display: flex;
+            width: 100%;
+            height: 80%;
+            border-radius: 10px;
+        }
+        #items_show img{
+            align-self: center;
+            width: 40px;
+            height: 40px;
+            margin: 40px;
+        }
+        #slideshow {
+            margin: 0 auto;
+           background-color: rgba(217, 207, 207, 1);
+            width: 60%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .formtitle img {
+            margin-right: 10px; /* Khoảng cách giữa hình ảnh và tiêu đề */
+            width: 35px; /* Độ rộng của hình ảnh */
+            height: 35px; /* Chiều cao của hình ảnh */
+        }
+        .title_login{
+            position: absolute;
+            top: 0;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            width: 100%;
+        }
+        .title_login img{
+
+            align-self: center;
+            width: 35px;
+            height: 35px;
+        }
+        #formlogin{
+            border-radius: 10px;
+            align-self: center;
+            background-color: rgba(255, 255, 255, 1);
+            height: 60%;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div id="cardLeft">
+            <div class = "formtitle">
+                <img src="../WebKetNoi/asset/logo UFM.png" alt="Your Image">
+                <div>
+                    <label id="title">TRƯỜNG ĐẠI HỌC TÀI CHÍNH - MARKETING </label><br>
+                    <label id="content_title">KHOA CÔNG NGHỆ THÔNG TIN </label>
+                </div>
+            </div><br>
+            <div id ="items_show">
+                <img src="../WebKetNoi/asset/back.png" alt="Your Image">
+                <div id="slideshow">
+                    các hình ảnh trong slideshow
+                </div>
+                <img src="../WebKetNoi/asset/next.png" alt="Your Image">
+            </div>
+        </div>
+        <div id="cardright">
+            <div class="title_login">
+                <img src="../WebKetNoi/asset/logoKNTT.png" alt="Your Image">
+                <div>
+                    <label id="title">KẾT NỐI THỰC TẬP </label><br>
+                    <label id="title">GIỮA SINH VIÊN VÀ DOANH NGHIỆP IT </label>
+                </div>
+            </div><br>
+            <div style="height: 50px;"></div><br>
+            <div id ="formlogin">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
