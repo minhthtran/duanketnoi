@@ -1,5 +1,6 @@
 <!-- header.php -->
-<!DOCTYPE html>
+<!--Helllo -->
+<!DOCTYPE html> 
 <html>
 <head>
     <title>Trang chủ</title>
