@@ -20,7 +20,7 @@
             <div id ="items_show">
                 <img src="~/../asset/back.png" alt="Your Image">
                 <div id="slideshow">
-                    các hình ảnh trong slideshow
+                    các hình ảnh trong slideshows
                 </div>
                 <img src="~/../asset/next.png" alt="Your Image">
             </div>
