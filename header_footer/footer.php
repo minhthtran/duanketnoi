@@ -26,7 +26,6 @@
    <h2> Liên hệ</h2>
       <label>Cổng thông tin Khoa CNTT</label><br><br>
       <label>Fanpage Phòng Khảo thí - Quản lý chất lượng Trường Đại học Tài chính - Marketing</label><br><br>
-     
    </div>
 </footer>
 </body>
