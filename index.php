@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="~/../css/style.css" rel="stylesheet">
-    <script src="~/../css/function.js"></script>
+    <script src="/css/function.js"></script>
 </head>
 <body>
     <div class="row">
@@ -18,11 +18,9 @@
                 </div>
             </div><br>
             <div id ="items_show">
-                <img src="~/../asset/back.png" alt="Your Image">
                 <div id="slideshow">
                     các hình ảnh trong slideshows
                 </div>
-                <img src="~/../asset/next.png" alt="Your Image">
             </div>
         </div>
         <div id="cardright">
@@ -34,7 +32,7 @@
                 </div>
             </div><br>
             <div style="height: 50px;"></div><br>
-            <div id ="formlogin">
+            <form id ="formlogin">
                 <div id="logintitle_f">
                     <label>Đăng nhập hệ thống</label>
                 </div>
@@ -59,7 +57,7 @@
                         </button>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     </div>
 
