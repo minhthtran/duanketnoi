@@ -6,6 +6,9 @@
     <title>Document</title>
     <link href="~/../css/style.css" rel="stylesheet">
     <script src="/css/function.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 </head>
 <body>
     <div class="row">
@@ -32,19 +35,19 @@
                 </div>
             </div><br>
             <div style="height: 50px;"></div><br>
-            <form id ="formlogin">
+            <form id ="formlogin" method="POST" action="ChucNang/CN_DangNhap.php">
                 <div id="logintitle_f">
                     <label>Đăng nhập hệ thống</label>
                 </div>
                 <div id="item_login">
                     <div class="container_item">
                         <label>Nhập mã số</label><br>
-                        <input>
+                        <input name="input_username" required>
                     </div>
                     <div class="container_item">
                         <label>Mật khẩu</label><br>
                         <div class="password_input_wrapper">
-                            <input id="input_password" type="password">
+                            <input id="input_password" type="password" name="input_password" required>
                             <span class="toggle_password"></span>
                             <label id="lblquenmk">
                                 Quên mật khẩu?
@@ -52,7 +55,7 @@
                         </div>
                     </div>
                     <div class="container_item">
-                        <button>
+                        <button type="submit" name="btn_DangNhap">
                             Đăng nhập
                         </button>
                     </div>
@@ -60,6 +63,22 @@
             </form>
         </div>
     </div>
-
+    <script>
+        $(document).ready(function () {
+            var logginFalse = <?php session_start();
+            echo isset($_SESSION['logginFalse']) ? $_SESSION['logginFalse'] : 'false';
+            unset($_SESSION['logginFalse']); ?>;
+            if (logginFalse) {
+                toastr.remove()
+                toastr.options = {
+                    closeButton: true,
+                    progressBar: true,
+                    positionClass: 'toast-top-center',
+                    timeOut: 2000,
+                };
+                toastr.error('Sai tài khoản hoặc mật khẩu')
+            }
+        });
+    </script>
 </body>
 </html>
