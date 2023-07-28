@@ -1,14 +1,15 @@
+<link href="../../css/style_khoa.css" rel="stylesheet">
 <footer>
    <div class="group_info">
       <div class = "group_row">
-         <img src="~/../asset/logoUFM.png" alt="Your Image">
+         <img src="../../asset/logoUFM.png" alt="Your Image">
          <div>
             <label id="title">TRƯỜNG ĐẠI HỌC TÀI CHÍNH - MARKETING </label><br>
             <label id="content_title">KHOA CÔNG NGHỆ THÔNG TIN </label>
          </div>
       </div>
       <div class = "group_row">
-         <img src="~/../asset/logoKNTT.png" alt="Your Image">
+         <img src="../../asset/logoKNTT.png" alt="Your Image">
          <div>
             <label id="title">KẾT NỐI THỰC TẬP GIỮA SINH VIÊN</label><br>
             <label id="content_title">VÀ DOANH NGHIỆP IT </label>
@@ -28,5 +29,6 @@
       <label>Fanpage Phòng Khảo thí - Quản lý chất lượng Trường Đại học Tài chính - Marketing</label><br><br>
    </div>
 </footer>
+
 </body>
 </html>
