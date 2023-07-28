@@ -4,6 +4,7 @@ body{
     overflow: auto;
 }
 footer{
+    clear: both;
     display: flex;
     justify-content: center;
      align-items: center;
@@ -88,14 +89,18 @@ footer{
     height: 30px;
 }
 .group_info{
-    width: 24%;
-    height: 230px;
-    margin:30px;
+    margin-left:30px;
+    margin-right:30px;
+    margin-top: 20px;
+    vertical-align: top;
+    width:300px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+   
 }
 .group_row{
+    margin-left:30px;
+    margin-right:30px;
     width: 150px;
     color: white;
     margin-top: 10px;
@@ -115,15 +120,33 @@ footer{
 }
 .group_row img{
     margin: 10px;
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
 }
-.group_info h2{
-    color: white;
+.title-footer{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .group_info label{
 
     color: white;
+}
+.container_detail_noti{
+    width:80%;
+    margin: 0 auto;
+    margin-bottom:20px;
+}
+.the_ps{
+    padding:10px;
+    display: inline-block;
+    color: rgba(3, 37, 108, 1);
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;   
 }
 .the_p{
     padding-left: 100px;
@@ -208,12 +231,11 @@ footer{
     border:1px solid black;
     border-radius: 8px;
     font-size: 18px;
-    width: 300px;
+    width: 600px;
     background-color:white;
     height: 35px;
 }
 .input-wrapper {
-    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -245,11 +267,54 @@ footer{
     height: 30px;
 }
 #list_thongbao{
-    height:600px;
+    float:left;
+    width: 78%;
+    height:700px;
+}
+.title_notinew{
+    color: #03256C;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-left:5px;
+}
+.css_notification_news{
+    margin: 8px;
+    height:700px;
+    float:left;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius:10px;
+    width:20%;
+}
+table{
+    color:white;
+}
+.content_notification{
+    width:80%;
+}
+.labeltitlenew{
+    color: #333;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.container_row_list{
+    padding:5px;
+    display: flex;
+  
+}
+.icons{
+    margin-right:5px;
+    font-weight: 40px;
 }
 .container label{
+    margin-left:20px;
     font-family: Arial;
-    font-size: 15px;
+    font-size: 25px;
     font-style: italic;
     font-weight: 700;
     text-align: left;
@@ -268,13 +333,34 @@ footer{
     height: 0;
   }
   .container_listtle {
-    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 20px;
     border-radius:10px;
     background-color: rgba(193, 193, 191, 1);
     display: flex;
     align-items: center;
   }
-  
+  .font{
+    color: #333;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .lable_select{
+    color: #03256C;
+    font-family: Arial;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .form-drop{
+    border-radius:10px;
+    width:150px;
+    padding:10px;
+  }
   .leading {
     width: 20%; /* Điều chỉnh kích thước của phần trailing và leading */
     padding: 10px; /* Điều chỉnh padding cho phần tử */
@@ -374,3 +460,48 @@ footer{
     background-color: rgba(3, 37, 108, 1);
     padding:10px;
   }
+  .fr-detail{
+    padding:20px;
+    margin: 0 auto;
+    width: 80%;
+    min-height:600px;
+    background-color: rgba(217, 217, 217, 1);
+    border-radius:20px;
+  }
+  .fr-detail h2{
+    color: #03256C;
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .content-detail{
+    margin-left: 20px;
+  }
+  .description-detail{
+    margin-left: 10px;
+  }
+  .dropdown-link {
+    position: relative; /* Để thẻ con có position: absolute; hoạt động chính xác */
+    display: inline-block;
+}
+
+/* CSS cho nội dung menu con */
+.dropdown-content {
+    display: none; /* Ẩn menu con ban đầu */
+    position: absolute;
+    box-shadow:  rgba(0,0,0,0.6);
+    background-color: rgba(51, 51, 51, 0.7);
+
+}
+.dropdown-content a{
+    color:black;
+    min-width: 150px;
+    margin:5px;
+
+}
+/* Hiển thị menu con khi hover (rê chuột) vào liên kết */
+.dropdown-link:hover .dropdown-content {
+    display: block;
+}
