@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.container-register{
+    margin: 0 185px;
+    font-family: Arial,sans-serif;
+}
+
+.font-tt {
+    color: #03256C;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title-signup{
+    padding-left: 0;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.search-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-bar {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 85% 15%;
+    column-gap: 10px ;
+}
+
+input.search {
+    border-radius: 10px;
+    padding-left: 10px;
+    border: 1px solid #333333;
+    font-style: italic;
+}
+
+.search-bar i {
+    background: #03256C;
+    border-radius: 10px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+
+.filter {
+    display: grid;
+    width: 25%;
+    grid-template-columns: 50% 50%;
+    font-weight: bold;
+    color: #03256C;
+}
+
+.total-teacher {
+    color:#333333;
+    margin: 10px 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.teacher {
+    display: grid;
+    grid-template-columns: 14% 70% 16%;
+    background: #D9D9D9;
+    border-radius: 5px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.teacher__img img {
+    width: 135px;
+    border-radius: 50%;
+    padding-right: 8px;
+}
+
+.info__content>div {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.btn {
+    width: 134px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.info__btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__register {
+    background: #03256C;
+    color: #ffffff;
+}
+
+.btn__register:hover {
+    background: #185ADB;
+}
+
+.btn__see-detail {
+    color: #ffffff;
+    background: #2E7D32;
+}
+
+.btn__see-detail:hover {
+    background: #91D2B2;
+    color: #2E7D32;
+}
+
+.paging {
+    margin-bottom: 10px;
+}
+
+.paging ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.paging ul li {
+    font-weight: bold;
+    padding: 10px;
+}
