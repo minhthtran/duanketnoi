@@ -19,20 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM_[Default_Changelist]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM__Default_Changelist_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dangkygiangvien.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dangkygiangvien.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_khoa.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_khoa.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header_footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/header_footer/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header_footer/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header_footer/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/SinhVien/dangkygiangvien.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/dangkygiangvien.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification_detail_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/notification_detail_student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" afterDir="false" />
-    </list>
+    <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +94,7 @@
       <workItem from="1691672820027" duration="5670000" />
       <workItem from="1691679675558" duration="689000" />
       <workItem from="1691977780680" duration="5000" />
-      <workItem from="1691978017024" duration="1499000" />
+      <workItem from="1691978017024" duration="1827000" />
     </task>
     <servers />
   </component>
@@ -151,10 +138,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1691981317967" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1691981447815">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1691981619198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1691981447815" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1691981619198" />
     <state x="390" y="99" width="585" height="530" key="find.popup" timestamp="1691678196722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
