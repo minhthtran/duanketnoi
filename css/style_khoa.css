@@ -149,7 +149,8 @@ footer{
     text-align: left;   
 }
 .the_p{
-    padding-left: 100px;
+    padding-left: 10%;
+    margin-top: 20px;
     color: rgba(3, 37, 108, 1);
     font-family: Arial;
     font-size: 20px;
@@ -159,8 +160,7 @@ footer{
     text-align: left;   
 }
 .form_inserttb{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin: 0 10%;
 }
 #form_inserttb label{
     padding-bottom: 20px;
@@ -231,7 +231,7 @@ footer{
     border:1px solid black;
     border-radius: 8px;
     font-size: 18px;
-    width: 600px;
+    width: 100%;
     background-color:white;
     height: 35px;
 }
@@ -312,9 +312,9 @@ table{
     font-weight: 40px;
 }
 .container label{
-    margin-left:20px;
+    margin:0 5px;
     font-family: Arial;
-    font-size: 25px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 700;
     text-align: left;
@@ -350,10 +350,10 @@ table{
   }
   .lable_select{
     color: #03256C;
-    font-family: Arial;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
+    /*font-family: Arial;*/
+    /*font-size: 20px;*/
+    /*font-style: normal;*/
+    /*font-weight: 700;*/
     line-height: normal;
   }
   .form-drop{

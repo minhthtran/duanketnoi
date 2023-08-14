@@ -20,8 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dangkygiangvien.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dangkygiangvien.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/function.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_khoa.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_khoa.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header_footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/header_footer/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header_footer/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header_footer/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/SinhVien/dangkygiangvien.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/dangkygiangvien.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification_detail_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/notification_detail_student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,24 +59,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/asset" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../duanketnoi" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\wamp\www\duanketnoi\modules\SinhVien" />
-      <recent name="F:\wamp\www\duanketnoi\css" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\wamp\www\duanketnoi\asset" />
       <recent name="F:\wamp\www\duanketnoi\css" />
       <recent name="F:\wamp\www\duanketnoi\modules\SinhVien" />
       <recent name="F:\wamp\www\duanketnoi\modules\DoanhNghiep" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\wamp\www\duanketnoimain\modules\SinhVien" />
+      <recent name="F:\wamp\www\duanketnoi\modules\SinhVien" />
+      <recent name="F:\wamp\www\duanketnoi\css" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -92,6 +104,10 @@
       <workItem from="1690594280374" duration="5571000" />
       <workItem from="1690616769776" duration="139000" />
       <workItem from="1690616938575" duration="763000" />
+      <workItem from="1691672820027" duration="5670000" />
+      <workItem from="1691679675558" duration="689000" />
+      <workItem from="1691977780680" duration="5000" />
+      <workItem from="1691978017024" duration="1499000" />
     </task>
     <servers />
   </component>
@@ -115,10 +131,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="431" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1690473548211" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1690473157161">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1691672852014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1690473157161" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1691672852014" />
     <state x="129" y="55" key="MergeDialog" timestamp="1690616892794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -131,10 +147,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="493" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1690617500995" />
-    <state x="390" y="99" width="585" height="530" key="find.popup" timestamp="1690565502919">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1691981317967">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="99" width="585" height="530" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1690565502919" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1691981317967" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1691981447815">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1691981447815" />
+    <state x="390" y="99" width="585" height="530" key="find.popup" timestamp="1691678196722">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="99" width="585" height="530" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1691678196722" />
     <state x="463" y="77" key="git4idea.branch.GitSmartOperationDialog" timestamp="1690616867270">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

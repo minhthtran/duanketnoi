@@ -1,6 +1,6 @@
-<?php include '~/../header_footer/header.php'; ?>
-<link href="~/../css/style_khoa.css" rel="stylesheet">
-<div >
+<?php include '../../header_footer/header.php'; ?>
+<link href="../../css/style_khoa.css" rel="stylesheet">
+<div class="container-nofti">
    <p class="the_p">THÔNG BÁO KHOA CÔNG NGHỆ THÔNG TIN</p>
     <div class="form_inserttb">
         <div class="container">
@@ -8,7 +8,7 @@
                 <input class="input_search" placeholder="Tìm kiếm thông báo" type="text">
                 <button class="icon-button">
                 <span class="icon">
-                    <img src="~/../asset/searchfill.png" alt="Icon">
+                    <img src="../../asset/searchfill.png" alt="Icon">
                 </span>
                 </button>
             </div>
@@ -32,26 +32,8 @@
                         <option class="font" value="option4">02023</option>
                     </select>
                 </div>
-                <!-- <button class="icon-button">
-                    <span class="icon">
-                        <img src="~/../asset/date.png" alt="Icon">
-                    </span>
-                </button>
-                <input placeholder="from"></input>
-                -
-                <input placeholder="to"></input> -->
             </form>
         </div><br>
-        <!-- <div class ="container">
-            <label>Tổng số lượng: 23</label>
-            <div class="spacer"></div>
-            <button class="create_tb0"> 
-                <span class="icon">
-                        <img src="~/../asset/announcement_fill.png" alt="Icon">
-                </span>
-                Tạo thông báo
-            </button>
-        </div> -->
         <div id ="content_notification">
             <div id ="list_thongbao">
             <?php
@@ -69,7 +51,7 @@
                     echo '
                     <form class="container_listtle">
                         <div class="trailing">
-                            <img src="~/../asset/img_thongbao.png" alt="Trailing Image">
+                            <img src="../../asset/img_thongbao.png" alt="Trailing Image">
                         </div>
                         <div class="title">
                             <p>Tiêu đề thông báo</p>
@@ -115,4 +97,4 @@
     </div>
     </div>
 </div>
-<?php include '~/../header_footer/footer.php'; ?>
+<?php include '../../header_footer/footer.php'; ?>

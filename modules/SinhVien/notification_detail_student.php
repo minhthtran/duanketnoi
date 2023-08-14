@@ -1,4 +1,4 @@
-<?php include '~/../header_footer/header.php'; ?>
+<?php include '../../header_footer/header.php'; ?>
     <div class="container_detail_noti">
         <div class="the_ps">THÔNG BÁO KHOA CÔNG NGHỆ THÔNG TIN </div>
         <div class="the_ps">></div>
