@@ -50,6 +50,12 @@ input.search {
     color: #fff;
     text-align: center;
     line-height: 40px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.search-bar i:hover {
+    background: #185adb;
+    cursor: pointer;
 }
 
 .filter {
@@ -60,9 +66,13 @@ input.search {
     color: #03256C;
 }
 
+.filter__year, .filter__semester {
+    font-size: 16px;
+}
+
 .total-teacher {
     color:#333333;
-    margin: 10px 0;
+    margin: 15px 0;
     font-weight: bold;
     font-style: italic;
 }
@@ -74,6 +84,12 @@ input.search {
     border-radius: 5px;
     padding: 8px;
     margin-bottom: 10px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.teacher:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .teacher__img img {
@@ -138,4 +154,9 @@ input.search {
 .paging ul li {
     font-weight: bold;
     padding: 10px;
+}
+
+.paging ul li:hover {
+    color: #185adb;
+    cursor: pointer;
 }

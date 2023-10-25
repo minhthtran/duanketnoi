@@ -1,5 +1,4 @@
 <?php include '../../header_footer/header.php'; ?>
-<link href="../../css/style_khoa.css" rel="stylesheet">
 <div class="container-nofti">
    <p class="the_p">THÔNG BÁO KHOA CÔNG NGHỆ THÔNG TIN</p>
     <div class="form_inserttb">
@@ -21,7 +20,7 @@
                         <option class="font" value="option1">Tất cả</option>
                         <option class="font" value="option2">2021</option>
                         <option class="font" value="option3">2022</option>
-                        <option class="font" value="option4">02023</option>
+                        <option class="font" value="option4">2023</option>
                     </select>
                     <label class="lable_select">Học kì</label>
                     <select class="font form-drop">
@@ -29,11 +28,11 @@
                         <option class="font" value="option1">Tất cả</option>
                         <option class="font" value="option2">2021</option>
                         <option class="font" value="option3">2022</option>
-                        <option class="font" value="option4">02023</option>
+                        <option class="font" value="option4">2023</option>
                     </select>
                 </div>
             </form>
-        </div><br>
+        </div>
         <div id ="content_notification">
             <div id ="list_thongbao">
             <?php
@@ -64,10 +63,6 @@
                                 <label>Thời gian: 3 giờ trước</label>
                             </div>    
                         </div>
-                        <div class="leading">
-                            <button class="create_tb1">Xóa thông báo</button>
-                            <button class="create_tb2">Xem chi tiết</button>
-                        </div>
                     </form>';
                 }
                 // Tạo phân trang
@@ -86,7 +81,7 @@
                         echo '  
                         <div class="container_row_list">
                             <icon class="icons"> > </icon>
-                            <label class="labeltitlenew">Thông báo mới nhất có tiêu đề Thông báo mới nhất có tiêu đề</label>
+                            <a href="" class="labeltitlenew">Thông báo mới nhất có tiêu đề Thông báo mới nhất có tiêu đề</a>                          
                         </div>
                     ';
                     }
@@ -94,7 +89,6 @@
                    </div>
             </div>
         </div>
-    </div>
     </div>
 </div>
 <?php include '../../header_footer/footer.php'; ?>

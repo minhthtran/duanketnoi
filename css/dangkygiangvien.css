@@ -36,6 +36,12 @@
     column-gap: 10px ;
 }
 
+.search-bar i:hover {
+    cursor: pointer;
+    background: #185adb;
+    transition: background 0.3s ease;
+}
+
 input.search {
     border-radius: 10px;
     padding-left: 10px;
@@ -58,11 +64,16 @@ input.search {
     grid-template-columns: 50% 50%;
     font-weight: bold;
     color: #03256C;
+    font-size: 16px;
+}
+
+.filter__year, .filter__semester {
+    font-size: 16px;
 }
 
 .total-teacher {
     color:#333333;
-    margin: 10px 0;
+    margin: 15px 0;
     font-weight: bold;
     font-style: italic;
 }
@@ -74,6 +85,13 @@ input.search {
     border-radius: 5px;
     padding: 8px;
     margin-bottom: 10px;
+    transition: opacity 0.3s ease-in-out;
+
+}
+
+.teacher:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }
 
 .teacher__img img {
@@ -138,4 +156,9 @@ input.search {
 .paging ul li {
     font-weight: bold;
     padding: 10px;
+}
+
+.paging ul li:hover {
+    cursor: pointer;
+    color: #185adb;
 }

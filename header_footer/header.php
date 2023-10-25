@@ -5,8 +5,8 @@
 <head>
     <link href="../../css/style_khoa.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="../../css/dangkygiangvien.css" rel="stylesheet">
     <link href="../../css/dangkydoanhnghiep.css" rel="stylesheet">
+    <link href="../../css/global.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,10 +16,11 @@
                 <img src="../../asset/logoKNTT.png" alt="Your Image">
                 <label>Kết nối thực tập</label>
             </div>
-            <div class="header_right">
+            <a href="student_profile.php" class="header_right">
                 <img src="../../asset/user.png" alt="Your Image">
                 <label>Đăng nhập</label>
-            </div>
+
+            </a>
             <div class="header_right">
                 <img src="../../asset/gmail.png" alt="Your Image">
                 <label>Liên hệ admin</label>
@@ -27,11 +28,11 @@
         </div>
 
         <div id = "menu">
-            <a href="#"> <img src="../../asset/icon_home.png" alt="Your Image"> </a>
+            <a href="homepage_std.php"> <img src="../../asset/icon_home.png" alt="Your Image"> </a>
             <a href="#">Giới thiệu</a>
-            <a href="#">Thông báo</a>
-            <a href="#">Đăng kí giảng viên</a>
-            <a href="#">Đăng kí doanh nghiệp</a>
+            <a href="notification_student.php">Thông báo</a>
+            <a href="dangkygiangvien.php">Đăng kí giảng viên</a>
+            <a href="dangkydoanhnghiep.php">Đăng kí doanh nghiệp</a>
             <div class="dropdown-link">
                 <a href="#">
                     <img src="../../asset/more-vertical.png" alt="">

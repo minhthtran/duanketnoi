@@ -4,7 +4,7 @@
       <tr>
          <th></th>
          <th><div class="title-footer"> Thông tin liên hệ và hỗ trợ</div></th>
-         <th> <div class="title-footer"> Lời kết</div></th>
+         <th> <div class="title-footer"> Liên kết</div></th>
       </tr>
       <tr>
          <td>

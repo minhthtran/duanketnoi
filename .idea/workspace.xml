@@ -6,20 +6,74 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment="" />
+    <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/asset/atom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/bannerHompageSD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/call-in2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/call-in21.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/call1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/caution-sign-square.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/caution-sign-square1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/clipboard-edit-left2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/coolicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/dell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/edit-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/ellipse-52@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/file6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-106.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-1061.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-117.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-1171.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-12.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-121.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-122.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-139.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-14.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/group-7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/happy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/homefill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/homefill1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/image-1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/image-5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/interfacecopy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/interfaceinfo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/jump-time-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/logo@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/logoketnoi@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/logoweb@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/message-open-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/morevertical1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/phone-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/rectangle-10@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/rectangle-19.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/send-fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/sign-out-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/user-1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/user-circle2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/user-circle21.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/work.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/work1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/student_profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/SinhVien/student_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dangkydoanhnghiep.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dangkydoanhnghiep.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/dangkygiangvien.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dangkygiangvien.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_khoa.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_khoa.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header_footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/header_footer/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header_footer/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header_footer/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/SinhVien/dangkygiangvien.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/dangkygiangvien.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,17 +100,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../duanketnoi" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\wamp\www\duanketnoimain\asset" />
       <recent name="F:\wamp\www\duanketnoi\asset" />
       <recent name="F:\wamp\www\duanketnoi\css" />
       <recent name="F:\wamp\www\duanketnoi\modules\SinhVien" />
@@ -94,7 +149,40 @@
       <workItem from="1691672820027" duration="5670000" />
       <workItem from="1691679675558" duration="689000" />
       <workItem from="1691977780680" duration="5000" />
-      <workItem from="1691978017024" duration="1827000" />
+      <workItem from="1691978017024" duration="2672000" />
+      <workItem from="1691995815445" duration="3835000" />
+      <workItem from="1692017775220" duration="1514000" />
+      <workItem from="1692064585012" duration="602000" />
+      <workItem from="1692291134866" duration="4342000" />
+      <workItem from="1692323941291" duration="3122000" />
+      <workItem from="1692435353739" duration="5566000" />
+      <workItem from="1692541473936" duration="1229000" />
+      <workItem from="1692542772065" duration="1278000" />
+      <workItem from="1692544107345" duration="614000" />
+      <workItem from="1692544819638" duration="6116000" />
+      <workItem from="1692591831008" duration="10655000" />
+      <workItem from="1692609654391" duration="5386000" />
+      <workItem from="1692688375331" duration="79000" />
+      <workItem from="1692930484008" duration="1230000" />
+      <workItem from="1692935058834" duration="8820000" />
+      <workItem from="1692959131061" duration="949000" />
+      <workItem from="1693148789658" duration="596000" />
+      <workItem from="1693182795878" duration="7284000" />
+      <workItem from="1693197077564" duration="2169000" />
+      <workItem from="1693212439656" duration="4419000" />
+      <workItem from="1693236660115" duration="638000" />
+      <workItem from="1693367339426" duration="856000" />
+      <workItem from="1693495821878" duration="1191000" />
+      <workItem from="1693880011418" duration="83000" />
+      <workItem from="1695348991414" duration="4569000" />
+      <workItem from="1695566185215" duration="5413000" />
+      <workItem from="1695616472810" duration="12696000" />
+      <workItem from="1695779786471" duration="602000" />
+      <workItem from="1698154548945" duration="7906000" />
+      <workItem from="1698198680390" duration="595000" />
+      <workItem from="1698208986272" duration="602000" />
+      <workItem from="1698220320879" duration="2628000" />
+      <workItem from="1698224202471" duration="300000" />
     </task>
     <servers />
   </component>
@@ -114,14 +202,18 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="431" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1690473548211">
+    <state x="309" y="42" key="#Inspections" timestamp="1695567227822">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="431" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1690473548211" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1691672852014">
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1695567227822" />
+    <state x="431" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1692443830373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1691672852014" />
+    <state x="431" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1692443830373" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1698222821407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1698222821407" />
     <state x="129" y="55" key="MergeDialog" timestamp="1690616892794">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -134,14 +226,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="493" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1690617500995" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1691981317967">
+    <state x="184" y="9" key="SettingsEditor" timestamp="1695633937439">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1691981317967" />
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1695633937439" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1691981619198">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1691981619198" />
+    <state x="675" y="-8" width="699" height="744" key="dock-window-1" timestamp="1692326013780">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="675" y="-8" width="699" height="744" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1692326013780" />
     <state x="390" y="99" width="585" height="530" key="find.popup" timestamp="1691678196722">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -150,9 +246,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="77" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1690616867270" />
-    <state x="346" y="49" key="search.everywhere.popup" timestamp="1690473947701">
+    <state x="339" y="162" key="run.anything.popup" timestamp="1693187203379">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1690473947701" />
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1693187203379" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1692592362342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1692592362342" />
   </component>
 </project>
