@@ -1,4 +1,22 @@
-<?php include '../../header_footer/header.php'; ?>
+<?php include '../../header_footer/header.php';
+require_once "HelperSinhVien.php";
+
+$helperSV = new HelperSinhVien();
+$rs1 = $helperSV->getToken();
+if($rs1['success'] == 0) {
+    echo "<script>alert('Không truy cập được máy chủ');</script>";
+} else {
+    $rs2 = $helperSV->getListPosts($rs1['access_token']);
+    if($rs2['success'] == 0) {
+        echo "<script>alert('Không truy cập được máy chủ');</script>";
+    } else
+    {
+        echo "<script>alert('Truy cập được máy chủ');</script>";
+    }
+}
+
+
+?>
 <div class="container-nofti">
    <p class="the_p">THÔNG BÁO KHOA CÔNG NGHỆ THÔNG TIN</p>
     <div class="form_inserttb">

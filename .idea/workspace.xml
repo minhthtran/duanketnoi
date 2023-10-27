@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,67 +14,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment=".NH.">
-      <change afterPath="$PROJECT_DIR$/asset/atom.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/bannerHompageSD.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/call-in2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/call-in21.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/call.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/call1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/caution-sign-square.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/caution-sign-square1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/clipboard-edit-left2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/coolicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/dell.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/edit-fill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/ellipse-52@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/file6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-106.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-1061.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-117.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-1171.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-12.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-121.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-122.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-139.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-14.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-5.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-6.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/group-7.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/happy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/homefill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/homefill1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/image-1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/image-5@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/interfacecopy.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/interfaceinfo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/jump-time-fill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/link.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/logo@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/logoketnoi@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/logoweb@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/message-open-fill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/morevertical1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/phone-fill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/rectangle-10@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/rectangle-19.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/send-fill.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/sign-out-alt.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/user-1@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/user-circle2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/user-circle21.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/vector.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/work.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/work1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/student_profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/SinhVien/student_profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/SinhVien/HelperSinhVien.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dangkydoanhnghiep.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dangkydoanhnghiep.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/dangkygiangvien.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/dangkygiangvien.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_khoa.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_khoa.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header_footer/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/header_footer/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header_footer/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header_footer/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/SinhVien/dangkygiangvien.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/dangkygiangvien.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,25 +36,37 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="687518a9-ab24-4c36-8f5e-7bcdbff5b4cf" name="Unnamed" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="E:/Programs/warm/www/proj-thnn-master/qlsvtt-fit_portal" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="E:\Programs\warm\bin\php\php7.1.33\php.exe" />
   <component name="ProjectId" id="2SYAnnxeB9iSsmylvVWJzyuQmuB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Programs/warm/www/proj-thnn-master/dotbedu_prod_qlsvtt-fit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\wamp\www\duanketnoimain\asset" />
@@ -123,6 +81,12 @@
       <recent name="F:\wamp\www\duanketnoi\css" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" nameIsGenerated="true" filter_connections="FILTER" server_name="Unnamed" session_id="PHPSTORM">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -183,6 +147,10 @@
       <workItem from="1698208986272" duration="602000" />
       <workItem from="1698220320879" duration="2628000" />
       <workItem from="1698224202471" duration="1331000" />
+      <workItem from="1698315977146" duration="1092000" />
+      <workItem from="1698317080681" duration="774000" />
+      <workItem from="1698320074374" duration="9000" />
+      <workItem from="1698372831082" duration="2650000" />
     </task>
     <task id="LOCAL-00001" summary=".NH">
       <created>1698224779791</created>
@@ -195,7 +163,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -207,64 +175,20 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".NH" />
     <option name="LAST_COMMIT_MESSAGE" value=".NH" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="309" y="42" key="#Inspections" timestamp="1695567227822">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1695567227822" />
-    <state x="431" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1692443830373">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="431" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1692443830373" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1698222821407">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1698222821407" />
-    <state x="129" y="55" key="MergeDialog" timestamp="1690616892794">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1690616892794" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1690561203974">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1690561203974" />
-    <state x="493" y="84" key="RollbackChangesDialog" timestamp="1690617500995">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="493" y="84" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1690617500995" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1695633937439">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1695633937439" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1698224791262">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1698224791262" />
-    <state x="675" y="-8" width="699" height="744" key="dock-window-1" timestamp="1692326013780">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="675" y="-8" width="699" height="744" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1692326013780" />
-    <state x="390" y="99" width="585" height="530" key="find.popup" timestamp="1691678196722">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="390" y="99" width="585" height="530" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1691678196722" />
-    <state x="463" y="77" key="git4idea.branch.GitSmartOperationDialog" timestamp="1690616867270">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="77" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1690616867270" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1693187203379">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1693187203379" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1692592362342">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1692592362342" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/SinhVien/HelperSinhVien.php</url>
+          <line>44</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
