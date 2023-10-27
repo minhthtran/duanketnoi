@@ -13,13 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment=".NH.">
-      <change afterPath="$PROJECT_DIR$/modules/SinhVien/HelperSinhVien.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_7_29_2023_2_47_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" afterDir="false" />
-    </list>
+    <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment=".NH test api." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +33,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="687518a9-ab24-4c36-8f5e-7bcdbff5b4cf" name="Unnamed" use_path_mappings="true">
@@ -150,7 +143,7 @@
       <workItem from="1698315977146" duration="1092000" />
       <workItem from="1698317080681" duration="774000" />
       <workItem from="1698320074374" duration="9000" />
-      <workItem from="1698372831082" duration="2650000" />
+      <workItem from="1698372831082" duration="3109000" />
     </task>
     <task id="LOCAL-00001" summary=".NH">
       <created>1698224779791</created>
@@ -159,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698224779791</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".NH test api.">
+      <created>1698375788228</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698375788228</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +178,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".NH" />
-    <option name="LAST_COMMIT_MESSAGE" value=".NH" />
+    <MESSAGE value=".NH test api." />
+    <option name="LAST_COMMIT_MESSAGE" value=".NH test api." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -187,6 +188,11 @@
           <url>file://$PROJECT_DIR$/modules/SinhVien/HelperSinhVien.php</url>
           <line>44</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/modules/SinhVien/notification_student.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
