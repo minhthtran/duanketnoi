@@ -3,15 +3,16 @@ require_once "HelperSinhVien.php";
 
 $helperSV = new HelperSinhVien();
 $rs1 = $helperSV->getToken();
+$list_post = array();
 if($rs1['success'] == 0) {
-    echo "<script>alert('Không truy cập được máy chủ');</script>";
+    echo "<script>alert('Đang đợi máy chủ');</script>";
 } else {
     $rs2 = $helperSV->getListPosts($rs1['access_token']);
     if($rs2['success'] == 0) {
-        echo "<script>alert('Không truy cập được máy chủ');</script>";
+        echo "<script>alert('Đang đợi máy chủ');</script>";
     } else
     {
-        echo "<script>alert('Truy cập được máy chủ');</script>";
+        $list_post = $rs2['data'];
     }
 }
 
@@ -55,7 +56,7 @@ if($rs1['success'] == 0) {
             <div id ="list_thongbao">
             <?php
                 $itemsPerPage = 4; // Số lượng thông báo hiển thị trên mỗi trang
-                $totalItems = 10; // Tổng số lượng thông báo
+                $totalItems = count($list_post); // Tổng số lượng thông báo
                 $totalPages = ceil($totalItems / $itemsPerPage); // Tính tổng số trang
 
                 $currentPage = isset($_GET['page']) ? $_GET['page'] : 1; // Trang hiện tại, mặc định là trang đầu tiên
@@ -65,20 +66,21 @@ if($rs1['success'] == 0) {
                 $endItem = $startItem + $itemsPerPage;
 
                 for ($i = $startItem; $i < $endItem && $i < $totalItems; $i++) {
+                    if(empty($list_post[$i]['post_image']))
+                        $src = "../../asset/img_thongbao.png";
+                    else $src = "https://qlsvtt-fit.dotb.cloud/upload/resize/". $list_post[$i]['post_image'];
                     echo '
-                    <form class="container_listtle">
+                    <form class="container_listtle" data-key="'.$list_post[$i]['id'].'">
                         <div class="trailing">
-                            <img src="../../asset/img_thongbao.png" alt="Trailing Image">
+                            <img src="'.$src.'" alt="Trailing Image">
                         </div>
                         <div class="title">
-                            <p>Tiêu đề thông báo</p>
-                            <div class="content_title">
-                                Tóm tắt nội dung thông báo. Tóm tắt nằm trong khoảng tối đa từ hai đến ba dòng. Tóm tắt nội dung thông báo. Tóm tắt nằm trong khoảng tối đa từ hai đến ba dòng.
-                            </div>      
+                            <p>'.$list_post[$i]['title'].'</p>
+                            <div class="content_title">'.$list_post[$i]['short_description'].'</div>      
                             <div class="footer_title">
-                                <label>Người đăng: Nguyễn Văn A</label>
+                                <label>Người đăng: '.$list_post[$i]['full_user_name'].'</label>
                                 <div class="spacer"></div>
-                                <label>Thời gian: 3 giờ trước</label>
+                                <label>Thời gian: '.$list_post[$i]['date_posted'].'</label>
                             </div>    
                         </div>
                     </form>';
@@ -95,11 +97,11 @@ if($rs1['success'] == 0) {
                    <p class="title_notinew"> Thông báo mới nhất </p>
                    <div>
                     <?php
-                    for ($i = 1; $i < 4; $i++) {
+                    for ($i = 0; $i < 4 && $i < $totalItems; $i++) {
                         echo '  
                         <div class="container_row_list">
                             <icon class="icons"> > </icon>
-                            <a href="" class="labeltitlenew">Thông báo mới nhất có tiêu đề Thông báo mới nhất có tiêu đề</a>                          
+                            <a href="" class="labeltitlenew">'.$list_post[$i]['title'].'</a>                          
                         </div>
                     ';
                     }
@@ -110,3 +112,32 @@ if($rs1['success'] == 0) {
     </div>
 </div>
 <?php include '../../header_footer/footer.php'; ?>
+<script>
+    $(".container_listtle").on("click", function(event) {
+        toastr.remove();
+        toastr.options = {
+            closeButton: false,
+            progressBar: false,
+            positionClass: 'toast-top-center',
+        };
+        toastr.info('Waiting')
+        var formKey = $(this).data("key");
+        $.ajax({
+            type: "POST",
+            url: "handleAjaxSinhVien.php",
+            data: {
+                type: "getDetailPost",
+                post_id: formKey,
+            },
+            success: function (data) {
+                debugger
+                toastr.remove();
+                data = JSON.parse(data);
+            }
+        });
+    });
+    $(".container_listtle").on("click", function(event) {
+        var formKey = $(this).data("key");
+        window.location.href = "notification_detail_student.php?id=" + formKey;
+    });
+</script>

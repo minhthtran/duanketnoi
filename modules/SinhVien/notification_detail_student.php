@@ -1,4 +1,49 @@
-<?php include '../../header_footer/header.php'; ?>
+<?php
+include '../../header_footer/header.php';
+require_once "HelperSinhVien.php";
+
+if (isset($_GET['id'])) {
+    echo '<script>
+    toastr.remove();
+    toastr.options = {
+        closeButton: false,
+        preventDuplicates: true,
+        progressBar: false,
+        timeOut: 0,
+        positionClass: "toast-top-center",
+    };
+    var noti = toastr.info("Waiting");
+    </script>';
+    $id = $_GET['id'];
+    $helperSV = new HelperSinhVien();
+    $rs1 = $helperSV->getToken();
+    if($rs1['success'] != 0) {
+        $rs2 = $helperSV->getDetailPost($rs1['access_token'], $id);
+        if ($rs2['success'] != 0) {
+            $postDetail = $rs2['data'][0];
+            echo '<script>toastr.clear(noti);</script>';
+        } else {
+            echo '
+            <script>
+            alert("Không tìm thấy thông báo")
+            window.location.href = "notification_student.php";
+            </script>';
+        }
+    } else {
+        echo '
+    <script>
+        alert("Kết nối không thành công")
+        window.location.href = "notification_student.php";
+    </script>';
+    }
+} else {
+    echo '
+    <script>
+        alert("Không tìm thấy thông báo")
+        window.location.href = "notification_student.php";
+    </script>';
+}
+?>
     <div class="container_detail_noti">
         <div class="the_ps">THÔNG BÁO KHOA CÔNG NGHỆ THÔNG TIN </div>
         <div class="the_ps">></div>
@@ -6,22 +51,14 @@
     </div>
     <div class="fr-detail">
         <!-- title của chi tiết thông báo -->
-        <h2>KẾ HOẠCH THỰC HÀNH NGHỀ NGHIỆP HỌC KÌ 2 NĂM 2023</h2>
+        <h2><?php echo $postDetail['title']; ?></h2>
         <div class="description-noti">
-        Khoa Công nghệ thông tin trường Đại học Tài chính Marketing hiện có nhu cầu tuyển dụng 3 giảng viên.
+            <?php echo $postDetail['description']; ?>
         </div>
             <div class="content-detail">
-                <?php for ($i = 1; $i <= 5; $i++) { ?>
-                    <h3> Tiêu đề con của thông báo </h3>
-                    <div class="description-detail">
-                        (<?php echo $i  ; ?>) Có bằng Tiến sĩ có chuyên ngành đào tạo phù hợp với vị trí việc làm cần tuyển;
-                    </div>
-                <?php } ?>
-            </div>
-            <div class="content-detail">
                 <p>Xem thêm: </p>
-                <?php for ($i = 1; $i <= 5; $i++) { ?>
-                    <a href="file-<?php echo $i; ?>.html">
+                <?php for ($i = 1; $i <= count($postDetail['list_attachment']); $i++) { ?>
+                    <a href="https://qlsvtt-fit.dotb.cloud/upload/063d1698-7562-11ee-a17f-baad63d197a2" download="Mau_nhanxetcua_dvthuctap.docx" type="application/vnd.openxmlformats-officedocument.wordprocessingml.document">
                         (<?php echo $i; ?>) file-<?php echo $i; ?>;
                     </a>
                     <br>
