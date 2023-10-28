@@ -1,4 +1,5 @@
 <?php include '../../header_footer/header.php'; ?>
+    <link href="../../css/dangkydoanhnghiep.css" rel="stylesheet">
     <div class="container-register">
         <div class="font-tt title-signup">Đăng kí doanh nghiệp</div>
         <div class="search-filter">

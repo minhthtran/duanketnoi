@@ -3,19 +3,15 @@ require_once "HelperSinhVien.php";
 
 $helperSV = new HelperSinhVien();
 $rs1 = $helperSV->getToken();
+$rs2 = array();
 if($rs1['success'] == 0) {
     echo "<script>alert('Không truy cập được máy chủ');</script>";
 } else {
     $rs2 = $helperSV->getListPosts($rs1['access_token']);
     if($rs2['success'] == 0) {
         echo "<script>alert('Không truy cập được máy chủ');</script>";
-    } else
-    {
-        echo "<script>alert('Truy cập được máy chủ');</script>";
     }
 }
-
-
 ?>
 <div class="container-nofti">
    <p class="the_p">THÔNG BÁO KHOA CÔNG NGHỆ THÔNG TIN</p>
@@ -53,6 +49,22 @@ if($rs1['success'] == 0) {
         </div>
         <div id ="content_notification">
             <div id ="list_thongbao">
+                <form class="container_listtle">
+                    <div class="trailing">
+                        <img src="../../asset/img_thongbao.png" alt="Trailing Image">
+                    </div>
+                    <div class="title">
+                        <p><?php echo $rs2['data'][0]['title'] ?></p>
+                        <div class="content_title">
+                            Tóm tắt nội dung thông báo. Tóm tắt nằm trong khoảng tối đa từ hai đến ba dòng. Tóm tắt nội dung thông báo. Tóm tắt nằm trong khoảng tối đa từ hai đến ba dòng.
+                        </div>
+                        <div class="footer_title">
+                            <label>Người đăng: Nguyễn Văn A</label>
+                            <div class="spacer"></div>
+                            <label>Thời gian: 3 giờ trước</label>
+                        </div>
+                    </div>
+                </form>
             <?php
                 $itemsPerPage = 4; // Số lượng thông báo hiển thị trên mỗi trang
                 $totalItems = 10; // Tổng số lượng thông báo

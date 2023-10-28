@@ -160,9 +160,7 @@
                 <div class="button-add-achievements">
                     <i class="fa fa-plus"></i>
                 </div>
-                <div class="">
-
-                </div>
+                <div id="list-input-achiv"></div>
             </div>
             <!--Kĩ năng-->
             <div class="container-mark">
@@ -170,7 +168,11 @@
                     <img class="work-icon1" alt="" src="../../asset/work1.svg" />
                     <p class="thng-tin-lin4">Kĩ năng</p>
                 </div>
-                <div class="button-add-skill">
+                <div class="button-add-skills">
+                    <i class="fa fa-plus"></i>
+                </div>
+                <div id="list-input-skill"></div>
+                <div class="group-button">
                     <div id="cancleButton" class="btn btn-skill-cancle">Hủy bỏ</div>
                     <div id="saveButton" class="btn btn-skill-save">Lưu</div>
                 </div>
@@ -229,13 +231,17 @@
         addModalEventListeners();
         //Hide - display input
         const addGpaButton = document.getElementById("addGpaButton");
-        const addAchivButton = document.querySelectorAll(".button-add-achievements");
+        const btnAddAchiv = document.querySelectorAll(".button-add-achievements");
+        const btnAddSkill = document.querySelectorAll(".button-add-skills");
         const btnCancle = document.getElementById("cancleButton");
-        const buttonAddSkill = document.querySelector(".button-add-skill");
+        const buttonAddSkill = document.querySelector(".group-button");
 
         addGpaButton.addEventListener("click", function () {
-            buttonAddSkill.style.display = "block";
-            addAchivButton.forEach(function (divElement) {
+            buttonAddSkill.style.display = "flex";
+            btnAddAchiv.forEach(function (divElement) {
+                divElement.style.display="block";
+            })
+            btnAddSkill.forEach(function (divElement) {
                 divElement.style.display="block";
             })
             btnCancle.forEach(function (divElement) {
@@ -244,11 +250,81 @@
         });
 
         btnCancle.addEventListener("click", function () {
-            addAchivButton.forEach(function (divElement) {
+            btnAddAchiv.forEach(function (divElement) {
                 divElement.style.display = "none";
             });
+            btnAddSkill.forEach(function (divElement) {
+                divElement.style.display = "none";
+            });
+            buttonAddSkill.style.display = "none";
         });
 
+        //Thêm input sau mỗi lần ấn thêm thành tích
+        var inputCount = 1;
+        btnAddAchiv.forEach(function (button) {
+            button.addEventListener("click", function () {
+                var listInputAchiv = document.getElementById("list-input-achiv");
+
+                var newInput = document.createElement("input");
+                newInput.type = "text";
+                newInput.name = "input" + inputCount;
+
+                var buttonLoadImg = document.createElement("button");
+                buttonLoadImg.textContent = "Tải ảnh lên";
+
+                var buttonCancleAchiv = document.createElement("button");
+                buttonCancleAchiv.textContent = "Hủy bỏ";
+
+                var lineBreak = document.createElement("br");
+
+                listInputAchiv.appendChild(newInput);
+                listInputAchiv.appendChild(buttonLoadImg);
+                listInputAchiv.appendChild(buttonCancleAchiv);
+                listInputAchiv.appendChild(lineBreak);
+
+                btnCancle.addEventListener("click", function () {
+                    listInputAchiv.removeChild(newInput);
+                    listInputAchiv.removeChild(lineBreak);
+                    listInputAchiv.removeChild(buttonLoadImg);
+                    listInputAchiv.removeChild(buttonCancleAchiv);
+                });
+
+                inputCount++;
+            });
+        });
+        //Thêm input sau mỗi lần ấn thêm kĩ năng
+        var inputCount = 1;
+        btnAddSkill.forEach(function (button) {
+            button.addEventListener("click", function () {
+                var listInputSkill = document.getElementById("list-input-skill");
+
+                var newInput = document.createElement("input");
+                newInput.type = "text";
+                newInput.name = "input" + inputCount;
+
+                var buttonLoadImg = document.createElement("button");
+                buttonLoadImg.textContent = "Tải ảnh lên";
+
+                var buttonCancleAchiv = document.createElement("button");
+                buttonCancleAchiv.textContent = "Hủy bỏ";
+
+                var lineBreak = document.createElement("br");
+
+                listInputSkill.appendChild(newInput);
+                listInputSkill.appendChild(buttonLoadImg);
+                listInputSkill.appendChild(buttonCancleAchiv);
+                listInputSkill.appendChild(lineBreak);
+
+                btnCancle.addEventListener("click", function () {
+                    listInputSkill.removeChild(newInput);
+                    listInputSkill.removeChild(lineBreak);
+                    listInputSkill.removeChild(buttonLoadImg);
+                    listInputSkill.removeChild(buttonCancleAchiv);
+                });
+
+                inputCount++;
+            });
+        });
     </script>
 </div>
 </body>

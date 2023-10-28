@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.container-register{
+    margin: 0 185px;
+    font-family: Arial,sans-serif;
+}
+
+.font-tt {
+    color: #03256C;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title-signup{
+    padding-left: 0;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.btn {
+    transition: opacity 0.3s ease-in-out ;
+}
+
+.btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+/*Info topic*/
+.infor-topic {
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.infor-topic-student {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.student-info>div {
+    margin-bottom: 5px;
+}
+
+.infor-topic-type,
+.infor-topic-name {
+    font-weight: bold;
+    color:#03256C;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.infor-topic-name p,
+.infor-topic-type p {
+    margin-right: 10px;
+}
+
+.infor-topic-type select {
+    width: 30%;
+    padding: 5px;
+}
+
+.infor-topic-name input {
+    width: 30%;
+    padding: 5px;
+    font-style: italic;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+.user-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.user-icon-bg {
+    border-radius: 50%;
+    background-color: var(--color-darkslateblue-100);
+    text-align: center;
+    padding-top:6px;
+    margin-right: 10px;
+    width: 52px;
+    height: 52px;
+}
+
+.btnRegister {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    text-align: center;
+    background-color: #185ADB;
+    border-radius: 5px;
+    color: #D9D9D9;
+    margin: 0 auto;
+}
+
+.btnRegister p {
+    margin-left: 5px;
+}
+/*Recommended Topic*/
+.recommend-topic {
+    color: #333333;
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.recommended-topic-table {
+    width: 100%;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+.recommended-topic-table th, td {
+    padding: 8px;
+}
+
+.recommended-topic-table th {
+    background-color: #333333;
+    color: #D9D9D9;
+}
+
+.recommended-topic-table td {
+    background-color: #D9D9D9;
+}
+
+.recommended-topic-table th:first-child,
+.recommended-topic-table td:first-child {
+    width: 10%;
+    text-align: center;
+    border-radius: 5px 0 0 0;
+}
+
+
+.recommended-topic-table th:nth-child(2),
+.recommended-topic-table td:nth-child(2) {
+    width: 70%;
+}
+
+.recommended-topic-table th:last-child,
+.recommended-topic-table td:last-child {
+    width: 20%;
+    border-radius:0 5px 0 0;
+}
+
+/*Phân trang*/
+.paging {
+    margin-bottom: 10px;
+}
+
+.paging ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.paging ul li {
+    font-weight: bold;
+    padding: 10px;
+}
+
+.paging ul li:hover {
+    cursor: pointer;
+    color: #185adb;
+}

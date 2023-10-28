@@ -13,7 +13,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment=".NH test api." />
+    <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment=".NH test api.">
+      <change afterPath="$PROJECT_DIR$/css/dangkydetai.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/task-detail.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/task.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/SinhVien/dangkydetai.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/SinhVien/task-detail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/SinhVien/task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChucNang/CN_DangNhap.php" beforeDir="false" afterPath="$PROJECT_DIR$/ChucNang/CN_DangNhap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/student_profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/student_profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header_footer/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header_footer/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/SinhVien/dangkydoanhnghiep.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/dangkydoanhnghiep.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/SinhVien/student_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/student_profile.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +54,7 @@
     <servers>
       <server host="localhost" id="687518a9-ab24-4c36-8f5e-7bcdbff5b4cf" name="Unnamed" use_path_mappings="true">
         <path_mappings>
-          <mapping local-root="$PROJECT_DIR$" remote-root="E:/Programs/warm/www/proj-thnn-master/qlsvtt-fit_portal" />
+          <mapping local-root="$PROJECT_DIR$" remote-root="F:/wamp/www/duanketnoimain" />
         </path_mappings>
       </server>
     </servers>
@@ -49,29 +66,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Programs/warm/www/proj-thnn-master/dotbedu_prod_qlsvtt-fit",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/SinhVien" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\wamp\www\duanketnoimain\css" />
+      <recent name="F:\wamp\www\duanketnoimain\modules\SinhVien" />
+      <recent name="F:\wamp\www\duanketnoi\modules\SinhVien" />
+      <recent name="F:\wamp\www\duanketnoi\css" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\wamp\www\duanketnoimain\modules\SinhVien" />
       <recent name="F:\wamp\www\duanketnoimain\asset" />
       <recent name="F:\wamp\www\duanketnoi\asset" />
       <recent name="F:\wamp\www\duanketnoi\css" />
       <recent name="F:\wamp\www\duanketnoi\modules\SinhVien" />
-      <recent name="F:\wamp\www\duanketnoi\modules\DoanhNghiep" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\wamp\www\duanketnoimain\modules\SinhVien" />
-      <recent name="F:\wamp\www\duanketnoi\modules\SinhVien" />
-      <recent name="F:\wamp\www\duanketnoi\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -79,7 +96,7 @@
       <method v="2" />
     </configuration>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -144,6 +161,9 @@
       <workItem from="1698317080681" duration="774000" />
       <workItem from="1698320074374" duration="9000" />
       <workItem from="1698372831082" duration="3109000" />
+      <workItem from="1698394093485" duration="9251000" />
+      <workItem from="1698430605697" duration="15897000" />
+      <workItem from="1698495928891" duration="96000" />
     </task>
     <task id="LOCAL-00001" summary=".NH">
       <created>1698224779791</created>
@@ -163,7 +183,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -175,11 +195,78 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".NH" />
     <MESSAGE value=".NH test api." />
     <option name="LAST_COMMIT_MESSAGE" value=".NH test api." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="263" y="19" key="#Servers" timestamp="1698394408121">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="263" y="19" key="#Servers/0.0.1366.728@0.0.1366.728" timestamp="1698394408121" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1698394409608">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1698394409608" />
+    <state x="440" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1698487725346">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="440" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1698487725346" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1698394601119">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1698394601119" />
+    <state width="1323" height="240" key="GridCell.Tab.0.bottom" timestamp="1698404027832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1698404027832" />
+    <state width="1323" height="240" key="GridCell.Tab.0.center" timestamp="1698404027832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1698404027832" />
+    <state width="1323" height="240" key="GridCell.Tab.0.left" timestamp="1698404027832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1698404027832" />
+    <state width="1323" height="240" key="GridCell.Tab.0.right" timestamp="1698404027832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1698404027832" />
+    <state width="1323" height="240" key="GridCell.Tab.1.bottom" timestamp="1698404027832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1698404027832" />
+    <state width="1323" height="240" key="GridCell.Tab.1.center" timestamp="1698404027832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1698404027832" />
+    <state width="1323" height="240" key="GridCell.Tab.1.left" timestamp="1698404027832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1698404027832" />
+    <state width="1323" height="240" key="GridCell.Tab.1.right" timestamp="1698404027832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1698404027832" />
+    <state width="1323" height="240" key="GridCell.Tab.2.bottom" timestamp="1698404027833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1698404027833" />
+    <state width="1323" height="240" key="GridCell.Tab.2.center" timestamp="1698404027832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1698404027832" />
+    <state width="1323" height="240" key="GridCell.Tab.2.left" timestamp="1698404027832">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1698404027832" />
+    <state width="1323" height="240" key="GridCell.Tab.2.right" timestamp="1698404027833">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="240" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1698404027833" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -188,11 +275,6 @@
           <url>file://$PROJECT_DIR$/modules/SinhVien/HelperSinhVien.php</url>
           <line>44</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/modules/SinhVien/notification_student.php</url>
-          <line>3</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

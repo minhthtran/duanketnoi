@@ -184,6 +184,7 @@
   border-radius: 5px;
 }
 
+.button-add-skills,
 .button-add-achievements {
   color: #ffcd1a;
   background-color: #005495;
@@ -196,6 +197,7 @@
   display:none;
 }
 
+.button-add-skills:hover,
 .button-add-achievements:hover {
   cursor: pointer;
   opacity: 0.8;
@@ -918,13 +920,17 @@ hr {
 
 
 /*Add gpa*/
-.button-add-skill,
 .button-change-pw {
   display: flex;
   justify-content: right;
 }
 
-.button-add-skill>div {
+.group-button{
+  display: none;
+  justify-content: right;
+}
+
+.group-button>div {
   width: 80px;
   border-radius: 10px;
   text-align: center;
@@ -960,4 +966,26 @@ hr {
 .btn-skill-save {
   color: #D9D9D9;
   background-color: #005495;
+}
+
+/*Thêm thành tích*/
+input {
+  border: 1px solid #000;
+  padding: 5px;
+  width: 250px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+button {
+  padding: 5px;
+  width: 100px;
+  border-radius: 5px;
+  margin:10px;
+  color: #D9D9D9;
+  background-color: #005495;
+}
+
+button:hover {
+  cursor: pointer;
 }
