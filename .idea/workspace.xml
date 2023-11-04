@@ -14,7 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment="DS hiển thị và chi tiết thông báo bên sinh viên">
+      <change afterPath="$PROJECT_DIR$/ChucNang/helperLogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChucNang/CN_DangNhap.php" beforeDir="false" afterPath="$PROJECT_DIR$/ChucNang/CN_DangNhap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/SinhVien/notification_detail_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/notification_detail_student.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" afterDir="false" />
     </list>
@@ -37,6 +41,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="687518a9-ab24-4c36-8f5e-7bcdbff5b4cf" name="Unnamed" use_path_mappings="true">
@@ -150,7 +155,8 @@
       <workItem from="1698657484964" duration="648000" />
       <workItem from="1698727190075" duration="1818000" />
       <workItem from="1698738011859" duration="1450000" />
-      <workItem from="1699076373826" duration="2380000" />
+      <workItem from="1699076373826" duration="6206000" />
+      <workItem from="1699089059841" duration="4468000" />
     </task>
     <task id="LOCAL-00001" summary=".NH">
       <created>1698224779791</created>
@@ -173,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698495561948</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 04/11">
+      <created>1699080257338</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699080257338</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +208,72 @@
     <MESSAGE value=".NH" />
     <MESSAGE value=".NH test api." />
     <MESSAGE value="DS hiển thị và chi tiết thông báo bên sinh viên" />
-    <option name="LAST_COMMIT_MESSAGE" value="DS hiển thị và chi tiết thông báo bên sinh viên" />
+    <MESSAGE value="Commit 04/11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 04/11" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1306" height="211" key="GridCell.Tab.0.bottom" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.0.bottom/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state width="1306" height="211" key="GridCell.Tab.0.center" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.0.center/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state width="1306" height="211" key="GridCell.Tab.0.left" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.0.left/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state width="1306" height="211" key="GridCell.Tab.0.right" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.0.right/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state width="1306" height="211" key="GridCell.Tab.1.bottom" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.1.bottom/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state width="1306" height="211" key="GridCell.Tab.1.center" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.1.center/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state width="1306" height="211" key="GridCell.Tab.1.left" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.1.left/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state width="1306" height="211" key="GridCell.Tab.1.right" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.1.right/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state width="1306" height="211" key="GridCell.Tab.2.bottom" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.2.bottom/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state width="1306" height="211" key="GridCell.Tab.2.center" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.2.center/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state width="1306" height="211" key="GridCell.Tab.2.left" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.2.left/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state width="1306" height="211" key="GridCell.Tab.2.right" timestamp="1699093369743">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state width="1306" height="211" key="GridCell.Tab.2.right/0.0.1366.720@0.0.1366.720" timestamp="1699093369743" />
+    <state x="517" y="283" key="NewPhpFileDialog" timestamp="1699083052380">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="517" y="283" key="NewPhpFileDialog/0.0.1366.720@0.0.1366.720" timestamp="1699083052380" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>68</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

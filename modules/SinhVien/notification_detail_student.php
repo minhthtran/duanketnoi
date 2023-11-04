@@ -2,6 +2,18 @@
 include '../../header_footer/header.php';
 require_once "HelperSinhVien.php";
 
+session_start();
+
+if(empty($_SESSION['id']) && empty($_SESSION['object'])) {
+    $_SESSION['isLoggedIn'] = false;
+    $_SESSION['Error'] = "Bạn chưa đăng nhập";
+    header("Location: ../../index.php");
+} elseif ($_SESSION['object'] != "Student") {
+    $_SESSION['isLoggedIn'] = false;
+    $_SESSION['Error'] = "Tài khoản không thuộc đối tượng sinh viên";
+    header("Location: ../../index.php");
+}
+
 if (isset($_GET['id'])) {
     echo '<script>
     toastr.remove();
@@ -58,7 +70,7 @@ if (isset($_GET['id'])) {
             <div class="content-detail">
                 <p>Xem thêm: </p>
                 <?php for ($i = 0; $i < count($postDetail['list_attachment']); $i++) { ?>
-                    <a href="https://qlsvtt/dotbedu_prod_qlsvtt_fit/index.php?entryPoint=downFromPortal&downloadFromApi=true&type=Notes&id=<?php echo $postDetail['list_attachment'][$i]['id']; ?>">
+                    <a target="_blank" href="https://qlsvtt-fit.dotb.cloud/index.php?entryPoint=downFromPortal&downloadFromApi=true&type=Notes&id=<?php echo $postDetail['list_attachment'][$i]['id']; ?>">
                         (<?php echo ($i+1); ?>) <?php echo $postDetail['list_attachment'][$i]['filename']; echo ' '; echo $postDetail['list_attachment'][$i]['description']; ?>;
                     </a>
                     <br>

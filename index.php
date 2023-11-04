@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="row">
@@ -63,22 +65,21 @@
             </form>
         </div>
     </div>
-    <script>
-        $(document).ready(function () {
-            var logginFalse = <?php session_start();
-            echo isset($_SESSION['logginFalse']) ? $_SESSION['logginFalse'] : 'false';
-            unset($_SESSION['logginFalse']); ?>;
-            if (logginFalse) {
-                toastr.remove()
-                toastr.options = {
-                    closeButton: true,
-                    progressBar: true,
-                    positionClass: 'toast-top-center',
-                    timeOut: 2000,
-                };
-                toastr.error('Sai tài khoản hoặc mật khẩu')
-            }
-        });
-    </script>
+    <?php
+    session_start();
+    if($_SESSION['isLoggedIn'] == false) {
+        echo "<script>toastr.clear(noti); 
+            toastr.options = {
+            closeButton: true,
+            preventDuplicates: true,
+            progressBar: true,
+            timeOut: 2000,
+            positionClass: 'toast-top-center',
+            };
+            var noti = toastr.error('".$_SESSION['Error']."');</script>";
+    }
+
+    ?>
+
 </body>
 </html>

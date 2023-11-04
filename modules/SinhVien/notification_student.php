@@ -1,5 +1,18 @@
-<?php include '../../header_footer/header.php';
+<?php
+include '../../header_footer/header.php';
 require_once "HelperSinhVien.php";
+
+session_start();
+
+if(empty($_SESSION['id']) && empty($_SESSION['object'])) {
+    $_SESSION['isLoggedIn'] = false;
+    $_SESSION['Error'] = "Bạn chưa đăng nhập";
+    header("Location: ../../index.php");
+} elseif ($_SESSION['object'] != "Student") {
+    $_SESSION['isLoggedIn'] = false;
+    $_SESSION['Error'] = "Tài khoản không thuộc đối tượng sinh viên";
+    header("Location: ../../index.php");
+}
 
 echo '<script>
     toastr.remove();
