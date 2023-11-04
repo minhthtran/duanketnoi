@@ -1,15 +1,53 @@
 <?php include '../../header_footer/header.php';
 require_once "HelperSinhVien.php";
 
+echo '<script>
+    toastr.remove();
+    toastr.options = {
+        closeButton: false,
+        preventDuplicates: true,
+        progressBar: false,
+        timeOut: 0,
+        positionClass: "toast-top-center",
+    };
+    var noti = toastr.info("Waiting");
+    </script>';
+
 $helperSV = new HelperSinhVien();
 $rs1 = $helperSV->getToken();
 $rs2 = array();
 if($rs1['success'] == 0) {
+<<<<<<< HEAD
     echo "<script>alert('Không truy cập được máy chủ');</script>";
 } else {
     $rs2 = $helperSV->getListPosts($rs1['access_token']);
     if($rs2['success'] == 0) {
         echo "<script>alert('Không truy cập được máy chủ');</script>";
+=======
+    echo "<script>toastr.clear(noti); toastr.options = {
+        closeButton: false,
+        preventDuplicates: true,
+        progressBar: false,
+        timeOut: 0,
+        positionClass: \"toast-top-center\",
+    };
+    var noti = toastr.error(\"Error\");</script>";
+} else {
+    $rs2 = $helperSV->getListPosts($rs1['access_token']);
+    if($rs2['success'] == 0) {
+        echo "<script>toastr.clear(noti); toastr.options = {
+        closeButton: false,
+        preventDuplicates: true,
+        progressBar: false,
+        timeOut: 0,
+        positionClass: \"toast-top-center\",
+    };
+    var noti = toastr.error(\"Error\");</script>";
+    } else
+    {
+        echo '<script>toastr.clear(noti);</script>';
+        $list_post = $rs2['data'];
+>>>>>>> remotes/origin/nhathoai
     }
 }
 ?>
@@ -111,7 +149,11 @@ if($rs1['success'] == 0) {
                         echo '  
                         <div class="container_row_list">
                             <icon class="icons"> > </icon>
+<<<<<<< HEAD
                             <a href="" class="labeltitlenew">Thông báo mới nhất có tiêu đề Thông báo mới nhất có tiêu đề</a>                          
+=======
+                            <a href="" data-key="'.$list_post[$i]['id'].'" class="labeltitlenew">'.$list_post[$i]['title'].'</a>                          
+>>>>>>> remotes/origin/nhathoai
                         </div>
                     ';
                     }
@@ -121,4 +163,41 @@ if($rs1['success'] == 0) {
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 <?php include '../../header_footer/footer.php'; ?>
+=======
+<?php include '../../header_footer/footer.php'; ?>
+<script>
+    $(".container_listtle").on("click", function(event) {
+        toastr.remove();
+        toastr.options = {
+            closeButton: false,
+            progressBar: false,
+            positionClass: 'toast-top-center',
+        };
+        toastr.info('Waiting')
+        var formKey = $(this).data("key");
+        $.ajax({
+            type: "POST",
+            url: "handleAjaxSinhVien.php",
+            data: {
+                type: "getDetailPost",
+                post_id: formKey,
+            },
+            success: function (data) {
+                debugger
+                toastr.remove();
+                data = JSON.parse(data);
+            }
+        });
+    });
+    $(".container_listtle").on("click", function(event) {
+        var formKey = $(this).data("key");
+        window.location.href = "notification_detail_student.php?id=" + formKey;
+    });
+    $(".labeltitlenew").on("click", function(event) {
+        var dataKey = $(this).data("key");
+        window.location.href = "notification_detail_student.php?id=" + dataKey;
+    });
+</script>
+>>>>>>> remotes/origin/nhathoai

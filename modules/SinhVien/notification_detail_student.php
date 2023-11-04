@@ -20,23 +20,19 @@
             </div>
             <div class="content-detail">
                 <p>Xem thêm: </p>
+<<<<<<< HEAD
                 <?php for ($i = 1; $i <= 5; $i++) { ?>
                     <a href="file-<?php echo $i; ?>.html">
                         (<?php echo $i; ?>) file-<?php echo $i; ?>;
+=======
+                <?php for ($i = 0; $i < count($postDetail['list_attachment']); $i++) { ?>
+                    <a href="https://qlsvtt/dotbedu_prod_qlsvtt_fit/index.php?entryPoint=downFromPortal&downloadFromApi=true&type=Notes&id=<?php echo $postDetail['list_attachment'][$i]['id']; ?>">
+                        (<?php echo ($i+1); ?>) <?php echo $postDetail['list_attachment'][$i]['filename']; echo ' '; echo $postDetail['list_attachment'][$i]['description']; ?>;
+>>>>>>> remotes/origin/nhathoai
                     </a>
                     <br>
                 <?php } ?>
             </div>
-        <!-- <div class= "content-detail">
-            <h3> Tiêu đề con của thông báo<h3>
-            <div>
-            (1) Có bằng Tiến sĩ có chuyên ngành đào tạo phù hợp với vị trí việc làm cần tuyển; 
-            (2) Có bằng Thạc sĩ được đào tạo bằng tiếng Anh, có chuyên ngành đào tạo phù hợp với vị trí việc làm cần tuyển; 
-            (3) Có bằng Thạc sĩ có ngành/chuyên ngành đào tạo phù hợp tốt nghiệp tại các trường thành viên thuộc Đại học Quốc gia Hà Nội, Đại học Quốc gia TP. Hồ Chí Minh;
-             trường đại học Kinh tế TP. HCM, Học viện Công nghệ Bưu chính Viễn thông. Ở bậc đại học phải tốt nghiệp đạt từ loại Khá trở lên.
-            </div>
-
-        </div> -->
     </div>
 
     <br>
