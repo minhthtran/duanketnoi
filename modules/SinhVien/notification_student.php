@@ -1,17 +1,44 @@
 <?php include '../../header_footer/header.php';
 require_once "HelperSinhVien.php";
 
+echo '<script>
+    toastr.remove();
+    toastr.options = {
+        closeButton: false,
+        preventDuplicates: true,
+        progressBar: false,
+        timeOut: 0,
+        positionClass: "toast-top-center",
+    };
+    var noti = toastr.info("Waiting");
+    </script>';
+
 $helperSV = new HelperSinhVien();
 $rs1 = $helperSV->getToken();
 $list_post = array();
 if($rs1['success'] == 0) {
-    echo "<script>alert('Đang đợi máy chủ');</script>";
+    echo "<script>toastr.clear(noti); toastr.options = {
+        closeButton: false,
+        preventDuplicates: true,
+        progressBar: false,
+        timeOut: 0,
+        positionClass: \"toast-top-center\",
+    };
+    var noti = toastr.error(\"Error\");</script>";
 } else {
     $rs2 = $helperSV->getListPosts($rs1['access_token']);
     if($rs2['success'] == 0) {
-        echo "<script>alert('Đang đợi máy chủ');</script>";
+        echo "<script>toastr.clear(noti); toastr.options = {
+        closeButton: false,
+        preventDuplicates: true,
+        progressBar: false,
+        timeOut: 0,
+        positionClass: \"toast-top-center\",
+    };
+    var noti = toastr.error(\"Error\");</script>";
     } else
     {
+        echo '<script>toastr.clear(noti);</script>';
         $list_post = $rs2['data'];
     }
 }
@@ -101,7 +128,7 @@ if($rs1['success'] == 0) {
                         echo '  
                         <div class="container_row_list">
                             <icon class="icons"> > </icon>
-                            <a href="" class="labeltitlenew">'.$list_post[$i]['title'].'</a>                          
+                            <a href="" data-key="'.$list_post[$i]['id'].'" class="labeltitlenew">'.$list_post[$i]['title'].'</a>                          
                         </div>
                     ';
                     }
@@ -139,5 +166,9 @@ if($rs1['success'] == 0) {
     $(".container_listtle").on("click", function(event) {
         var formKey = $(this).data("key");
         window.location.href = "notification_detail_student.php?id=" + formKey;
+    });
+    $(".labeltitlenew").on("click", function(event) {
+        var dataKey = $(this).data("key");
+        window.location.href = "notification_detail_student.php?id=" + dataKey;
     });
 </script>
