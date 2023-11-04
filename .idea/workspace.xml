@@ -13,19 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment=".NH test api.">
-      <change afterPath="$PROJECT_DIR$/css/homepage_std.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/SinhVien/homepage_std.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/rectangle-10@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/student_profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/student_profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style_khoa.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_khoa.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task-detail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/task.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header_footer/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header_footer/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/SinhVien/task-detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/task-detail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/SinhVien/task.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/task.php" afterDir="false" />
-    </list>
+    <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment=".NH test api." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -170,6 +158,7 @@
       <workItem from="1699012865035" duration="7977000" />
       <workItem from="1699078874175" duration="936000" />
       <workItem from="1699079991948" duration="152000" />
+      <workItem from="1699081474766" duration="69000" />
     </task>
     <task id="LOCAL-00001" summary=".NH">
       <created>1698224779791</created>
