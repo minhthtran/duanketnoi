@@ -11,22 +11,32 @@
 <body>
     <header>
         <div id ="header_top">
-            <div id="header_left">
+            <a href="#" id="header_left">
                 <img src="../../asset/logoKNTT.png" alt="Your Image">
                 <label>Quản lý thực tập</label>
-            </div>
-            <a href="student_profile.php" class="header_right">
-                <img src="../../asset/user.png" alt="Your Image">
-                <label>Đăng nhập</label>
-
             </a>
+
             <div class="header_right">
+                <img src="../../asset/user.png" alt="Your Image">
+                <label>Minh Thư</label>
+
+                <div class="modal-setting">
+                    <a href="../SinhVien/student_profile.php" class="setting-information">
+                        <img src="../../asset/clipboard edit left-2.png" alt="">
+                        <div>Thông tin cá nhân</div>
+                    </a>
+                    <a href="#" class="setting-logout">
+                        <img src="../../asset/sign out alt.png" alt="">
+                        <div>Đăng xuất</div>
+                    </a>
+                </div>
+            </div>
+            <div class="header_contact">
                 <img src="../../asset/gmail.png" alt="Your Image">
                 <label>Liên hệ admin</label>
             </div>
         </div>
-
-        <div id = "menu">
+               <div id = "menu">
             <a href="homepage_std.php"> <img src="../../asset/icon_home.png" alt="Your Image"> </a>
             <a href="#">Giới thiệu</a>
             <a href="notification_student.php">Thông báo</a>
@@ -44,6 +54,9 @@
                 </div>
             </div>
         </div>
+        <script>
+
+        </script>
     </header>
 </body>
 </html>

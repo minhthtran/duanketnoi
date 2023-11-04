@@ -178,7 +178,7 @@ input.search {
     border-radius: 5px;
 }
 
-a.task-task-status {
+.table-task-status {
     border: 1px solid #333333;
     padding: 5px;
     text-align: center;
@@ -187,12 +187,16 @@ a.task-task-status {
     font-weight: bold;
     cursor: pointer;
     transition: opacity 0.3s ease-in-out;
-    text-decoration: none;
     width: 100%;
 }
 
 .table-task-status:hover {
     opacity: 0.8;
+}
+
+.table-task-status a {
+    text-decoration: none;
+    color: #333333;
 }
 
 .open {

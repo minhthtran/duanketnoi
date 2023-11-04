@@ -33,7 +33,7 @@
             <td>Nộp báo cáo công việc tuần 1</td>
             <td>20/10/2023</td>
             <td>20/11/2023</td>
-            <td><a href="task-detail.php" class="open table-task-status">Mở</a></td>
+            <td><div href="task-detail.php" class="open table-task-status"><a href="task-detail.php">Mở</a></div></td>
         </tr>
         <tr>
             <td><input type="checkbox" id="checkbox1"></td>
@@ -42,7 +42,7 @@
             <td>Nộp báo cáo công việc tuần 1</td>
             <td>20/10/2023</td>
             <td>20/11/2023</td>
-            <td><a class="inprogress table-task-status">Đang thực hiện</a></td>
+            <td><div class="inprogress table-task-status">Đang thực hiện</div></td>
         </tr>
         <tr>
             <td><input type="checkbox" id="checkbox1"></td>
@@ -51,7 +51,7 @@
             <td>Nộp báo cáo công việc tuần 1</td>
             <td>20/10/2023</td>
             <td>20/11/2023</td>
-            <td><a class="completed table-task-status">Hoàn thành</a></td>
+            <td><div class="completed table-task-status">Hoàn thành</div></td>
         </tr>
     </table>
     <!--Tạo phân trang-->

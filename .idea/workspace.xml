@@ -14,22 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49265a43-6d37-4a31-ab10-e6deef3558f7" name="Default Changelist" comment=".NH test api.">
-      <change afterPath="$PROJECT_DIR$/css/dangkydetai.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/task-detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/task.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/SinhVien/dangkydetai.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/SinhVien/task-detail.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/SinhVien/task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/homepage_std.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/SinhVien/homepage_std.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChucNang/CN_DangNhap.php" beforeDir="false" afterPath="$PROJECT_DIR$/ChucNang/CN_DangNhap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/rectangle-10@2x.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/student_profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/student_profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_khoa.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_khoa.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/task-detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task-detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/task.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/task.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header_footer/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header_footer/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/SinhVien/dangkydoanhnghiep.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/dangkydoanhnghiep.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/notification_student.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/SinhVien/student_profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/student_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/SinhVien/task-detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/task-detail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/SinhVien/task.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/SinhVien/task.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +63,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/modules/SinhVien" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -164,6 +159,17 @@
       <workItem from="1698394093485" duration="9251000" />
       <workItem from="1698430605697" duration="15897000" />
       <workItem from="1698495928891" duration="96000" />
+      <workItem from="1698496637476" duration="1550000" />
+      <workItem from="1698508661799" duration="8690000" />
+      <workItem from="1698562714920" duration="2427000" />
+      <workItem from="1698662332408" duration="6310000" />
+      <workItem from="1698767168868" duration="4247000" />
+      <workItem from="1698892232625" duration="37000" />
+      <workItem from="1698905432072" duration="422000" />
+      <workItem from="1698981973809" duration="8506000" />
+      <workItem from="1699012865035" duration="7977000" />
+      <workItem from="1699078874175" duration="936000" />
+      <workItem from="1699079991948" duration="152000" />
     </task>
     <task id="LOCAL-00001" summary=".NH">
       <created>1698224779791</created>
@@ -215,10 +221,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="440" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1698487725346" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1698394601119">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1699079946319">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1698394601119" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1699079946319" />
     <state width="1323" height="240" key="GridCell.Tab.0.bottom" timestamp="1698404027832">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -267,16 +273,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="240" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1698404027833" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/modules/SinhVien/HelperSinhVien.php</url>
-          <line>44</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="339" y="162" key="run.anything.popup" timestamp="1698566307908">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1698566307908" />
   </component>
 </project>
