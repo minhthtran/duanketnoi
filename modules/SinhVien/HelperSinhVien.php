@@ -74,4 +74,40 @@ class HelperSinhVien {
             );
         }
     }
+
+    function getDetailPost($token, $post_id = '') {
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => 'https://qlsvtt-fit.dotb.cloud/rest/v11_3/Posts/detail_posts?id=' . $post_id,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => '',
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 0,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => 'POST',
+            CURLOPT_SSL_VERIFYPEER => false,
+            CURLOPT_HTTPHEADER => array(),
+        ));
+
+        $response = curl_exec($curl);
+        if (curl_errno($curl))
+            $err = 'Error: ' . curl_error($curl);
+        curl_close($curl);
+        $data = json_decode(html_entity_decode($response), true);
+        curl_close($curl);
+        if(!empty($data['error'])) {
+            return array(
+                'success' => 0,
+                'error' => $err,
+                'dataErorr' => $data['error'],
+            );
+        } else {
+            return array(
+                'success' => 1,
+                'data' => $data,
+            );
+        }
+    }
 }

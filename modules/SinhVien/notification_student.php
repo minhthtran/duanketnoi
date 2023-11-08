@@ -15,15 +15,8 @@ echo '<script>
 
 $helperSV = new HelperSinhVien();
 $rs1 = $helperSV->getToken();
-$rs2 = array();
+$list_post = array();
 if($rs1['success'] == 0) {
-<<<<<<< HEAD
-    echo "<script>alert('Không truy cập được máy chủ');</script>";
-} else {
-    $rs2 = $helperSV->getListPosts($rs1['access_token']);
-    if($rs2['success'] == 0) {
-        echo "<script>alert('Không truy cập được máy chủ');</script>";
-=======
     echo "<script>toastr.clear(noti); toastr.options = {
         closeButton: false,
         preventDuplicates: true,
@@ -47,9 +40,9 @@ if($rs1['success'] == 0) {
     {
         echo '<script>toastr.clear(noti);</script>';
         $list_post = $rs2['data'];
->>>>>>> remotes/origin/nhathoai
     }
 }
+
 ?>
 <div class="container-nofti">
    <p class="the_p">THÔNG BÁO KHOA CÔNG NGHỆ THÔNG TIN</p>
@@ -87,25 +80,9 @@ if($rs1['success'] == 0) {
         </div>
         <div id ="content_notification">
             <div id ="list_thongbao">
-                <form class="container_listtle">
-                    <div class="trailing">
-                        <img src="../../asset/img_thongbao.png" alt="Trailing Image">
-                    </div>
-                    <div class="title">
-                        <p><?php echo $rs2['data'][0]['title'] ?></p>
-                        <div class="content_title">
-                            Tóm tắt nội dung thông báo. Tóm tắt nằm trong khoảng tối đa từ hai đến ba dòng. Tóm tắt nội dung thông báo. Tóm tắt nằm trong khoảng tối đa từ hai đến ba dòng.
-                        </div>
-                        <div class="footer_title">
-                            <label>Người đăng: Nguyễn Văn A</label>
-                            <div class="spacer"></div>
-                            <label>Thời gian: 3 giờ trước</label>
-                        </div>
-                    </div>
-                </form>
             <?php
                 $itemsPerPage = 4; // Số lượng thông báo hiển thị trên mỗi trang
-                $totalItems = 10; // Tổng số lượng thông báo
+                $totalItems = count($list_post); // Tổng số lượng thông báo
                 $totalPages = ceil($totalItems / $itemsPerPage); // Tính tổng số trang
 
                 $currentPage = isset($_GET['page']) ? $_GET['page'] : 1; // Trang hiện tại, mặc định là trang đầu tiên
@@ -115,20 +92,21 @@ if($rs1['success'] == 0) {
                 $endItem = $startItem + $itemsPerPage;
 
                 for ($i = $startItem; $i < $endItem && $i < $totalItems; $i++) {
+                    if(empty($list_post[$i]['post_image']))
+                        $src = "../../asset/img_thongbao.png";
+                    else $src = "https://qlsvtt-fit.dotb.cloud/upload/resize/". $list_post[$i]['post_image'];
                     echo '
-                    <form class="container_listtle">
+                    <form class="container_listtle" data-key="'.$list_post[$i]['id'].'">
                         <div class="trailing">
-                            <img src="../../asset/img_thongbao.png" alt="Trailing Image">
+                            <img src="'.$src.'" alt="Trailing Image">
                         </div>
                         <div class="title">
-                            <p>Tiêu đề thông báo</p>
-                            <div class="content_title">
-                                Tóm tắt nội dung thông báo. Tóm tắt nằm trong khoảng tối đa từ hai đến ba dòng. Tóm tắt nội dung thông báo. Tóm tắt nằm trong khoảng tối đa từ hai đến ba dòng.
-                            </div>      
+                            <p>'.$list_post[$i]['title'].'</p>
+                            <div class="content_title">'.$list_post[$i]['short_description'].'</div>      
                             <div class="footer_title">
-                                <label>Người đăng: Nguyễn Văn A</label>
+                                <label>Người đăng: '.$list_post[$i]['full_user_name'].'</label>
                                 <div class="spacer"></div>
-                                <label>Thời gian: 3 giờ trước</label>
+                                <label>Thời gian: '.$list_post[$i]['date_posted'].'</label>
                             </div>    
                         </div>
                     </form>';
@@ -145,15 +123,11 @@ if($rs1['success'] == 0) {
                    <p class="title_notinew"> Thông báo mới nhất </p>
                    <div>
                     <?php
-                    for ($i = 1; $i < 4; $i++) {
+                    for ($i = 0; $i < 4 && $i < $totalItems; $i++) {
                         echo '  
                         <div class="container_row_list">
                             <icon class="icons"> > </icon>
-<<<<<<< HEAD
-                            <a href="" class="labeltitlenew">Thông báo mới nhất có tiêu đề Thông báo mới nhất có tiêu đề</a>                          
-=======
                             <a href="" data-key="'.$list_post[$i]['id'].'" class="labeltitlenew">'.$list_post[$i]['title'].'</a>                          
->>>>>>> remotes/origin/nhathoai
                         </div>
                     ';
                     }
@@ -163,9 +137,6 @@ if($rs1['success'] == 0) {
         </div>
     </div>
 </div>
-<<<<<<< HEAD
-<?php include '../../header_footer/footer.php'; ?>
-=======
 <?php include '../../header_footer/footer.php'; ?>
 <script>
     $(".container_listtle").on("click", function(event) {
@@ -200,4 +171,3 @@ if($rs1['success'] == 0) {
         window.location.href = "notification_detail_student.php?id=" + dataKey;
     });
 </script>
->>>>>>> remotes/origin/nhathoai
