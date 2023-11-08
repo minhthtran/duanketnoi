@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="asset/logoUFM.png" type="image/png">
     <title>Document</title>
     <link href="~/../css/style.css" rel="stylesheet">
     <script src="/css/function.js"></script>
@@ -32,8 +33,9 @@
             <div class="title_login">
                 <img src="~/../asset/logoKNTT.png" alt="Your Image">
                 <div>
-                    <label id="title">KẾT NỐI THỰC TẬP </label><br>
-                    <label id="title">GIỮA SINH VIÊN VÀ DOANH NGHIỆP IT </label>
+                    <label id="title">KHOA CÔNG NGHỆ THÔNG TIN</label>
+                    <br>
+                    <label id="title">QUẢN LÝ SINH VIÊN THỰC TẬP</label>
                 </div>
             </div><br>
             <div style="height: 50px;"></div><br>
@@ -67,7 +69,7 @@
     </div>
     <?php
     session_start();
-    if($_SESSION['isLoggedIn'] == false) {
+    if($_SESSION['isLoggedIn'] != true && !empty($_SESSION['Error'])) {
         echo "<script>toastr.clear(noti); 
             toastr.options = {
             closeButton: true,
@@ -78,7 +80,7 @@
             };
             var noti = toastr.error('".$_SESSION['Error']."');</script>";
     }
-
+    session_destroy();
     ?>
 
 </body>

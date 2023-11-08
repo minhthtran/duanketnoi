@@ -12,26 +12,9 @@ if(isset($_POST['btn_DangNhap']))
     $helperLG = new helperLogin();
     $rs1 = $helperLG->getToken();
 
-    if($rs1['success'] == 0) {
-        echo "<script>toastr.clear(noti); toastr.options = {
-        closeButton: false,
-        preventDuplicates: true,
-        progressBar: false,
-        timeOut: 0,
-        positionClass: \"toast-top-center\",
-        };
-        var noti = toastr.error(\"Error\");</script>";
-    } else {
+    if($rs1['success'] != 0) {
         $rs2 = $helperLG->loginPortal($username, $password);
         if($rs2['success'] == 0) {
-            echo "<script>toastr.clear(noti); toastr.options = {
-            closeButton: false,
-            preventDuplicates: true,
-            progressBar: false,
-            timeOut: 0,
-            positionClass: \"toast-top-center\",
-            };
-            var noti = toastr.error(\"Error\");</script>";
             $_SESSION['isLoggedIn'] = false;
             $_SESSION['Error'] = $rs2['error'];
             header("location: ../index.php");
@@ -44,6 +27,10 @@ if(isset($_POST['btn_DangNhap']))
                 header("location: ../modules/SinhVien/notification_student.php");
             }
         }
+    } else {
+        $_SESSION['isLoggedIn'] = false;
+        $_SESSION['Error'] = "Không thể truy cập vào máy chủ";
+        header("location: ../index.php");
     }
 }
 

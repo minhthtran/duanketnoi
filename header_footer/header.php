@@ -4,6 +4,8 @@
 <html>
 <head>
     <link href="../../css/style_khoa.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/font-awesome-4.7.0/css/font-awesome.css/font-awesome.min.css">
+    <link rel="icon" href="../../asset/logoUFM.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="../../css/dangkydoanhnghiep.css" rel="stylesheet">
     <link href="../../css/global.css" rel="stylesheet">
@@ -17,7 +19,7 @@
         <div id ="header_top">
             <div id="header_left">
                 <img src="../../asset/logoKNTT.png" alt="Your Image">
-                <label>Kết nối thực tập</label>
+                <label>INTERNSHIP STUDENT MANAGEMENT - FIT</label>
             </div>
             <a href="student_profile.php" class="header_right">
                 <img src="../../asset/user.png" alt="Your Image">
