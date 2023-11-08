@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <?php
 
@@ -8,12 +9,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="asset/logoUFM.png" type="image/png">
     <title>Document</title>
     <link href="~/../css/style.css" rel="stylesheet">
     <script src="/css/function.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
     <div class="row">
@@ -35,8 +38,9 @@
             <div class="title_login">
                 <img src="~/../asset/logoKNTT.png" alt="Your Image">
                 <div>
-                    <label id="title">KẾT NỐI THỰC TẬP </label><br>
-                    <label id="title">GIỮA SINH VIÊN VÀ DOANH NGHIỆP IT </label>
+                    <label id="title">KHOA CÔNG NGHỆ THÔNG TIN</label>
+                    <br>
+                    <label id="title">QUẢN LÝ SINH VIÊN THỰC TẬP</label>
                 </div>
             </div><br>
             <div style="height: 50px;"></div><br>
@@ -68,22 +72,21 @@
             </form>
         </div>
     </div>
-    <script>
-        $(document).ready(function () {
-            var logginFalse = <?php session_start();
-            echo isset($_SESSION['logginFalse']) ? $_SESSION['logginFalse'] : 'false';
-            unset($_SESSION['logginFalse']); ?>;
-            if (logginFalse) {
-                toastr.remove()
-                toastr.options = {
-                    closeButton: true,
-                    progressBar: true,
-                    positionClass: 'toast-top-center',
-                    timeOut: 2000,
-                };
-                toastr.error('Sai tài khoản hoặc mật khẩu')
-            }
-        });
-    </script>
+    <?php
+    session_start();
+    if($_SESSION['isLoggedIn'] != true && !empty($_SESSION['Error'])) {
+        echo "<script>toastr.clear(noti); 
+            toastr.options = {
+            closeButton: true,
+            preventDuplicates: true,
+            progressBar: true,
+            timeOut: 2000,
+            positionClass: 'toast-top-center',
+            };
+            var noti = toastr.error('".$_SESSION['Error']."');</script>";
+    }
+    session_destroy();
+    ?>
+
 </body>
 </html>
